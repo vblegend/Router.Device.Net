@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageTags>router;router ip;router device</PackageTags>
+		<Description>Use the UPNP discovery protocol to obtain the external IP address of the network router</Description>
+		<Authors>Hanks</Authors>
+		<Company>https://github.com/vblegend</Company>
+		<PackageReleaseNotes>Use the UPNP discovery protocol to obtain the external IP address of the network router</PackageReleaseNotes>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/vblegend/Router.Device.Net</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/vblegend/Router.Device.Net</PackageProjectUrl>
+		<Copyright>Powerd By Hanks</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>Icon.png</PackageIcon>
+		<VersionPrefix>1.0.1</VersionPrefix>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
